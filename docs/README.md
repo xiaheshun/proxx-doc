@@ -20,7 +20,7 @@ features:
 
   details: 记录平日所遇、所思、所得。
 
-- title: 技术革新
+- title: 技术伪新
 
   details: 微创作，套娃现有开源技术栈。
 
