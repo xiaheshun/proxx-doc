@@ -1,5 +1,4 @@
 const { defaultTheme } = require('vuepress')
-const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
     lang: 'zh-CN',
@@ -28,15 +27,4 @@ module.exports = {
             },
         ],
     }),
-    plugins: [
-        searchPlugin({
-            // 排除首页
-            isSearchable: (page) => page.path !== '/',
-            locales: {
-                '/': {
-                    placeholder: '搜索',
-                }
-            },
-        }),
-    ],
 }
