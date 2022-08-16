@@ -16,7 +16,6 @@ actionLink: /zh/guide/
 
 features:
 
-
 - title: 日常笔记
 
   details: 记录平日所遇、所思、所得。
@@ -32,3 +31,16 @@ features:
 footer: BSD 3-Clause License | Copyright © Since 2022-08-16 XiaHeShun
 
 ---
+
+| 图标                                                                                | 1级   | 2级  | 涉及框架                                                                              |
+|-----------------------------------------------------------------------------------|------|-----|-----------------------------------------------------------------------------------|
+| <img src="https://proxx.oss-cn-beijing.aliyuncs.com/icon/java.svg" width="30">    | 服务端  | 构建  | Maven、Nexus                                                                       |
+|                                                                                   |      | 长连接 | Netty、WebSocket                                                                   |
+|                                                                                   |      | 微服务 | SpringBoot、SpringCloud、SpringCloud Alibaba、Nacos、Apache Dubbo、Feign、Apache Shenyu |
+|                                                                                   |      | 持久层 | Mybatis、Mybatis-Plus、MySQL、Oracle、Redis                                           |
+| <img src="https://proxx.oss-cn-beijing.aliyuncs.com/icon/android.svg" width="30"> | 移动端  | 服务端 | Gradle、Android、AndroidX、XUI                                                       |
+| <img src="https://proxx.oss-cn-beijing.aliyuncs.com/icon/vue.svg" width="30">     | WEB端 | 服务端 | npm、pnmp、vue3、vite、element-plus、vuepress                                          |
+
+
+
+
