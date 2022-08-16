@@ -4,6 +4,11 @@ module.exports = {
     lang: 'zh-CN',
     title: 'Proxx知识库',
     description: '记录平日积累的技术栈知识库',
+    head: [
+        [
+            'link', { rel: 'icon', href: '/images/icon.svg' }
+        ]
+    ],
     theme: defaultTheme({
         // 图标
         logo: '/images/logo.svg',
