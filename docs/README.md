@@ -12,7 +12,7 @@ tagline: 永远相信，美好的事情即将发生
 
 actionText: 快速上手 →
 
-actionLink: /zh/guide/
+actionLink: /guide/
 
 features:
 

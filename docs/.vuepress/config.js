@@ -18,15 +18,20 @@ module.exports = {
         repo: 'https://github.com/xiaheshun?tab=repositories&q=proxx&type=&language=&sort=name',
         // 默认主题配置
         navbar: [
-            {
-                text: '页面1',
-                link: '/',
-            },
-            {
-                text: '页面2',
-                link: '/',
-            },
+            {text: '主页', link: '/',},
+            {text: '博客', link: '/vuepress/构建静态博客问题.html',},
         ],
+        sidebar: {
+            '/vuepress/':[
+                {
+                    title: '博客',
+                    collapsable: false,
+                    children: [
+                        { title: '构建静态博客问题', path: '/vuepress/构建静态博客问题.html' },
+                    ]
+                }
+            ]
+        }
     }),
     plugins: [
         searchPlugin({
