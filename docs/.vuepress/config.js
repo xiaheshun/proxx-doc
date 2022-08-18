@@ -7,13 +7,13 @@ module.exports = {
     description: '记录平日积累的技术栈知识库',
     head: [
         [
-            'link', { rel: 'icon', href: '/images/icon.svg' }
+            'link', { rel: 'icon', href: 'https://proxx.oss-cn-beijing.aliyuncs.com/icon.svg' }
         ]
     ],
     theme: defaultTheme({
         // 图标
-        logo: '/images/logo.svg',
-        logoDark: '/images/logo_dark.svg',
+        logo: 'https://proxx.oss-cn-beijing.aliyuncs.com/logo.svg',
+        logoDark: 'https://proxx.oss-cn-beijing.aliyuncs.com/logo_dark.svg',
         // 仓库
         repo: 'https://github.com/xiaheshun?tab=repositories&q=proxx&type=&language=&sort=name',
         // 默认主题配置

@@ -2,9 +2,9 @@
 
 home: true
 
-heroImage: /images/logo_index.svg
+heroImage: https://proxx.oss-cn-beijing.aliyuncs.com/logo_index.svg
 
-heroImageDark: /images/logo_index_dark.svg
+heroImageDark: https://proxx.oss-cn-beijing.aliyuncs.com/logo_index_dark.svg
 
 heroText: 超级知识库
 
