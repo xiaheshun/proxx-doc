@@ -1,12 +1,12 @@
 ---
 lang: zh-CN
-title: 构建静态博客问题
+title: GitHub流水线构建问题
 description: 构建静态博客问题汇总和解决方法
 ---
 
 # 1. GitHub Action 问题汇总
 
-自动构建过程中VuePress官方推荐的脚本是通过Yarn构建的，但是Yarn再构建过程中会发生无法获取依赖的问题
+自动构建过程中，VuePress官方推荐的脚本是通过Yarn构建的，会发生无法获取依赖的问题
 
 ```json lines
 Run yarn docs:build
