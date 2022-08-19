@@ -3,7 +3,7 @@ const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
     lang: 'zh-CN',
-    title: 'Proxx知识库',
+    title: '超级知识库',
     description: '记录平日积累的技术栈知识库',
     head: [
         [
