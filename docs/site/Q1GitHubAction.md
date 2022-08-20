@@ -1,10 +1,8 @@
 ---
 lang: zh-CN
-title: GitHub流水线构建问题
+title: GitHubAction-cannot find module
 description: 构建静态博客问题汇总和解决方法
 ---
-
-# 1. GitHub Action 问题汇总
 
 自动构建过程中，VuePress官方推荐的脚本是通过Yarn构建的，会发生无法获取依赖的问题
 

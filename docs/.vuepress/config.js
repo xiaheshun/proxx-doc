@@ -37,9 +37,10 @@ module.exports = {
                 },
                 {
                     text: '问题汇总',
-                    collapsible: true,
+                    collapsible: false,
                     children: [
-                        'Q1GitHub流水线构建问题.md'
+                        'Q1GitHubAction.md',
+                        'Q2GitHubAction.md'
                     ]
                 }
             ],
