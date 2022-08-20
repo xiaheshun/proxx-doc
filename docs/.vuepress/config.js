@@ -1,5 +1,4 @@
 const { defaultTheme } = require('vuepress')
-const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
     lang: 'zh-CN',
@@ -19,20 +18,16 @@ module.exports = {
         // 默认主题配置
         navbar: [
             {text: '主页', link: '/',},
-            {text: '指南', link: '/guide/',},
             {text: '建站', link: '/blog/',},
             {text: '码云', link: 'https://gitee.com/xiaheshun',},
         ],
         sidebar:{
-            '/guide/':[
-                {
-                    text: '知识库指南',
-                    path: '/guide/'
-                }
-            ],
             '/blog/':[
                 {
-                    text: '1.初始准备工作',
+                    text: '知识库介绍',
+                },
+                {
+                    text: '初始准备工作',
                     collapsible: false,
                     children: [
                         '1.1环境安装.md'
@@ -47,16 +42,5 @@ module.exports = {
                 }
             ],
         }
-    }),
-    plugins: [
-        searchPlugin({
-            // 排除首页
-            isSearchable: (page) => page.path !== '/',
-            locales: {
-                '/': {
-                    placeholder: '搜索',
-                }
-            },
-        }),
-    ],
+    })
 }
