@@ -6,7 +6,7 @@ description: 个人简历
 
 ## 夏和顺 / Java后台开发工程师
 
-+ :e-mail: **邮&ensp;&ensp;&ensp;&ensp;箱：** <font color="#4ea1db">xiaheshun@foxmail.com</font>
++ :e-mail: **邮&ensp;&ensp;&ensp;&ensp;箱：** xiaheshun@foxmail.com
 + :phone:  **微&ensp;信&ensp;号：** 18338644204
 + :alarm_clock: **工作年限：** 2018年-至今
 
