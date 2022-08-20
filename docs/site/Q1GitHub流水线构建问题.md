@@ -8,7 +8,7 @@ description: 构建静态博客问题汇总和解决方法
 
 自动构建过程中，VuePress官方推荐的脚本是通过Yarn构建的，会发生无法获取依赖的问题
 
-```json lines
+```
 Run yarn docs:build
 yarn run v1.22.19
 $ vuepress build docs

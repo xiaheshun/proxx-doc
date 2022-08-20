@@ -18,13 +18,15 @@ module.exports = {
         // 默认主题配置
         navbar: [
             {text: '主页', link: '/',},
-            {text: '建站', link: '/blog/',},
+            {text: '建站', link: '/site/',},
+            {text: '关于', link: '/personal/README.md',},
             {text: '码云', link: 'https://gitee.com/xiaheshun',},
         ],
         sidebar:{
-            '/blog/':[
+            '/site/':[
                 {
-                    text: '知识库介绍',
+                    text: '建站介绍',
+                    link: '/site/README.md'
                 },
                 {
                     text: '初始准备工作',
