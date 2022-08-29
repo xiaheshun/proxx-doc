@@ -19,6 +19,7 @@ module.exports = {
         navbar: [
             {text: '主页', link: '/',},
             {text: '建站', link: '/site/',},
+            {text: '后端', link: '/server/',},
             {text: '关于', link: '/personal/README.md',},
             {text: '码云', link: 'https://gitee.com/xiaheshun',},
         ],
@@ -41,6 +42,19 @@ module.exports = {
                     children: [
                         'Q1GitHubAction.md',
                         'Q2GitHubAction.md'
+                    ]
+                }
+            ],
+            '/server/':[
+                {
+                    text: '大纲',
+                    link: '/server/README.md'
+                },
+                {
+                    text: 'Https',
+                    collapsible: true,
+                    children: [
+                        '1.https.md'
                     ]
                 }
             ],
