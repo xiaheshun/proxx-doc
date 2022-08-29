@@ -52,7 +52,7 @@ module.exports = {
                 },
                 {
                     text: 'Https',
-                    collapsible: false,
+                    collapsible: true,
                     children: [
                         '1.https.md'
                     ]
