@@ -27,3 +27,4 @@ dist-ssr
 /pnpm-lock.yaml
 .temp
 .cache
+/package-lock.json

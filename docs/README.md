@@ -6,7 +6,7 @@ heroImage: https://proxx.oss-cn-beijing.aliyuncs.com/logo_index.svg
 
 heroImageDark: https://proxx.oss-cn-beijing.aliyuncs.com/logo_index_dark.svg
 
-heroText: 超级知识库
+heroText: null
 
 tagline: 永远相信，美好的事情即将发生
 
@@ -28,6 +28,9 @@ footer: BSD 3-Clause License | Copyright © Since 2022-08-16 XiaHeShun
 
 ---
 
+<Swiper></Swiper>
+
 <p style="text-align: right" >
   <a href='/personal'>进小黑屋，喝杯茶，深入了解作者 &#x1F449;</a>
 </p>
+

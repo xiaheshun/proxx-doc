@@ -1,4 +1,4 @@
-const { defaultTheme } = require('vuepress')
+const {defaultTheme,viteBundler} = require('vuepress')
 
 module.exports = {
     lang: 'zh-CN',
@@ -37,11 +37,19 @@ module.exports = {
                     ]
                 },
                 {
+                    text: '锦上添花',
+                    collapsible: false,
+                    children: [
+                        '2.1首页轮播图.md'
+                    ]
+                },
+                {
                     text: '问题汇总',
                     collapsible: false,
                     children: [
                         'Q1GitHubAction.md',
-                        'Q2GitHubAction.md'
+                        'Q2GitHubAction.md',
+                        'Q3浏览器兼容性.md'
                     ]
                 }
             ],
@@ -56,8 +64,29 @@ module.exports = {
                     children: [
                         '1.https.md'
                     ]
+                },
+                {
+                    text: '数据抓包',
+                    collapsible: true,
+                    children: [
+                        '2.1抓包http.md'
+                    ]
+                },
+                {
+                    text: '待整理笔记',
+                    collapsible: true,
+                    children: [
+                        'TODO大数据.md'
+                    ]
                 }
             ],
+        }
+    }),
+    bundler: viteBundler({
+        viteOptions: {
+            build: {
+                target: 'es2015'
+            }
         }
     })
 }
