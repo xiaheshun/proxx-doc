@@ -41,7 +41,8 @@ module.exports = {
                     collapsible: false,
                     children: [
                         'Q1GitHubAction.md',
-                        'Q2GitHubAction.md'
+                        'Q2GitHubAction.md',
+                        'Q3浏览器兼容性.md'
                     ]
                 }
             ],
