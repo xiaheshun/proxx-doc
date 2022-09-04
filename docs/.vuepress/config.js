@@ -1,4 +1,4 @@
-const { defaultTheme } = require('vuepress')
+const {defaultTheme,viteBundler} = require('vuepress')
 
 module.exports = {
     lang: 'zh-CN',
@@ -66,6 +66,13 @@ module.exports = {
                     ]
                 }
             ],
+        }
+    }),
+    bundler: viteBundler({
+        viteOptions: {
+            build: {
+                target: 'es2015'
+            }
         }
     })
 }
