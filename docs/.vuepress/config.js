@@ -37,6 +37,13 @@ module.exports = {
                     ]
                 },
                 {
+                    text: '锦上添花',
+                    collapsible: false,
+                    children: [
+                        '2.1首页轮播图.md'
+                    ]
+                },
+                {
                     text: '问题汇总',
                     collapsible: false,
                     children: [
